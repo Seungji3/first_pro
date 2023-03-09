@@ -155,6 +155,11 @@ class MyApp extends StatelessWidget {
       ),
     );
 
+    final mainImage = Image.asset(
+      'images/cake.jpg',
+      fit: BoxFit.cover,
+    );
+
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
@@ -171,6 +176,7 @@ class MyApp extends StatelessWidget {
                   width: 440,
                   child: leftColumn,
                 ),
+              mainImage
               ],
             ),
           ),
