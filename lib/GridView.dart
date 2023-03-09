@@ -31,6 +31,6 @@ class MyApp extends StatelessWidget {
   );
 
   List<Container> _buildGridTileList(int count) => List.generate(
-      count , (i) => Container(child: Image.asset('images/pic$i.jpg'),)
+      count , (i) => Container(child: Image.asset('images/pic$i.jpg'))
   );
 }
