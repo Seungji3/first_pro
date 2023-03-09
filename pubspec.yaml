@@ -90,6 +90,7 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   assets:
+    - images/pic0.jpg
     - images/pic1.jpg
     - images/pic2.jpg
     - images/pic3.jpg
