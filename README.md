@@ -1,6 +1,6 @@
-# first_pro
+# flutter
 
-A new Flutter project.
+learn to flutter
 
 ## Getting Started
 
